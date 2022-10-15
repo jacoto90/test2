@@ -1,8 +1,8 @@
 def menu():
-    print("w- Moure dreta")
+    print("w- Moure amunt")
     print("a- Moure equerre")
     print("d- Moure amunt")
-    print("s- Moure moure avall")    
+    print("s- Moure avall")    
     print("0- Sortir")
 
 def main():
@@ -14,19 +14,19 @@ def main():
 
     sortir=False
     while not sortir:
-        op = input('Entra una opció')
+        op = input('Entra una opció: ')
         if op=='d':
             #sumar 1 a la variable posX
-            pass
+            posX=posX+1
         elif op=='a':
             #restar 1 a la variable posX
-            pass
+            posX=posX-1
         elif op=='w':
             #sumar 1 a la variable posY
-            pass
+            posY=posY+1
         elif op=='s':
             #restar 1 a la variable posY
-            pass
+            posY=posY-1
         elif op=='0':
             sortir=True
             print("Has sortit de la nau")
