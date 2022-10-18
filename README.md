@@ -22,5 +22,6 @@ Des de la consola executa la següent comanda:
 python Nau.py
 ```
 
+![image](https://user-images.githubusercontent.com/115584355/196506084-bcdc8a57-14d4-43da-928e-5288be73285c.png)
 
 
